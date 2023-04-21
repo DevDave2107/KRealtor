@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans&family=Poppins&display=swap');
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --font-accent: 'Open Sans', sans-serif;
+    --font-splash: 'Antic Didone', serif;
+
+    --color-bg: rgba(12,12,12,1);
+    --color-accent: rgba(218,189,100,1);
+    --color-accent-dark: rgba(144,111,8,1);
+    --color-accent-splash: rgba(234, 236, 255, 1);
+   
+
+}

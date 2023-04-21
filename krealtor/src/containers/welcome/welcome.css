@@ -1,0 +1,100 @@
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* TITLE */
+.welcome__title h1{
+    font-family: var(--font-splash);
+    font-weight: 400;
+}
+.welcome__title h2{
+    color: var(--color-accent);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.welcome__section{
+    width: 70vw;
+    height: 5px;
+    background-color: var(--color-accent);
+}
+
+/* LINKS */ 
+.welcome__links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-around;
+
+    margin: 0.5rem;
+}
+.welcome__links li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    font-family: var(--font-accent);
+    font-weight: 100;
+    font-size: 1rem;
+
+    text-decoration: none;
+
+    /* Animating an underline */
+    background-image: linear-gradient(var(--color-accent), var(--color-accent));
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-in-out;  
+}
+.welcome__links li:hover, li:focus, li:active{
+    background-size: 100% 0.1em;
+    color: var(--color-accent);
+
+}
+
+/* IMAGE */
+.welcome__image{
+    margin: 0.5rem;
+
+    background-image: url(../../assets/heroImage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70vw;
+    height: 40vw;
+    border: 3px solid var(--color-accent-dark);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.welcome__image-banner{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.517);
+    margin-bottom: 1rem;
+}
+.welcome__image-banner-title{
+    font-family: var(--font-accent);
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+.welcome__image-banner-body{
+    font-size: 1.7rem;
+    color: var(--color-accent);
+}
+.welcome__image-banner-subtitle{
+    font-family: var(--font-accent);
+    font-weight: 300;
+    font-size: 1rem;
+    
+    
+}

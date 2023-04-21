@@ -1,0 +1,8 @@
+export {default as Welcome} from './welcome/Welcome'
+export {default as Testimony} from './testimony/Testimony'
+export {default as Socialmedia} from './socialmedia/Socialmedia'
+export {default as Listings} from './listings/Listings'
+export {default as Cta} from './cta/Cta'
+export {default as Contact} from './contact/Contact'
+export {default as Blog} from './blog/Blog'
+export {default as About} from './about/About'
